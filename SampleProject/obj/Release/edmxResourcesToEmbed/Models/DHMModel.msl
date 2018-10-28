@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBDHMModelStoreContainer" CdmEntityContainer="DBDHMEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="DBDHMModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CName" ColumnName="CName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerServices">
+      <EntityTypeMapping TypeName="DBDHMModel.CustomerService">
+        <MappingFragment StoreEntitySet="CustomerService">
+          <ScalarProperty Name="CSID" ColumnName="CSID" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="SId" ColumnName="SId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="DBDHMModel.Payment">
+        <MappingFragment StoreEntitySet="Payment">
+          <ScalarProperty Name="PId" ColumnName="PId" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="TotalPaidAmount" ColumnName="TotalPaidAmount" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="ValidDate" ColumnName="ValidDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="DBDHMModel.Service">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="SId" ColumnName="SId" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="SCost" ColumnName="SCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spCreatePayment" FunctionName="DBDHMModel.Store.spCreatePayment" />
+    <FunctionImportMapping FunctionImportName="spGetAllCustomer" FunctionName="DBDHMModel.Store.spGetAllCustomer">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBDHMModel.spGetAllCustomer_Result">
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CName" ColumnName="CName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetCostByCId" FunctionName="DBDHMModel.Store.spGetCostByCId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DBDHMModel.spGetCostByCId_Result">
+          <ScalarProperty Name="payment" ColumnName="payment" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spUpdatePayment" FunctionName="DBDHMModel.Store.spUpdatePayment" />
+  </EntityContainerMapping>
+</Mapping>

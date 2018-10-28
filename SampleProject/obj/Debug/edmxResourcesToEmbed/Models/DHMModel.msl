@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBDHMModelStoreContainer" CdmEntityContainer="DBDHMEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="DBDHMModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CName" ColumnName="CName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerServices">
+      <EntityTypeMapping TypeName="DBDHMModel.CustomerService">
+        <MappingFragment StoreEntitySet="CustomerServices">
+          <ScalarProperty Name="CSID" ColumnName="CSID" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="SId" ColumnName="SId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="DBDHMModel.Payment">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="PId" ColumnName="PId" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="TotalPaidAmount" ColumnName="TotalPaidAmount" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="ValidDate" ColumnName="ValidDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="DBDHMModel.Service">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="SId" ColumnName="SId" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="SCost" ColumnName="SCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

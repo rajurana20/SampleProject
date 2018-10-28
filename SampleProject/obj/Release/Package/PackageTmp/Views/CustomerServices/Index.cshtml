@@ -1,0 +1,39 @@
+﻿@model IEnumerable<SampleProject.Models.CustomerService>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Customer.CName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Service.SName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer.CName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Service.SName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CSID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CSID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CSID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,65 @@
+﻿@model SampleProject.Models.CustomerViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        @if (Model.Photo != null)
+        {
+        <dt>
+            @Html.DisplayNameFor(modal => modal.Photo)
+        </dt>
+        <dd>
+            <img src="@Url.Content(Model.Photo)" width="300" height="200" />
+        </dd>
+        }
+        <dt>
+            @Html.DisplayNameFor(model => model.CName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Services)
+        </dt>
+        
+        <dd>
+            @foreach(var item in Model.Services)
+            {
+                if (item.Checked)
+                {
+                    <div>@item.SName</div>
+                }
+            }
+        </dd>
+        <dt>
+</dl>
+</div>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBDHMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CId" />
+    </Key>
+    <Property Name="CId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Photo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CustomerServices" Relationship="Self.FK_CustomerService_Customer" FromRole="Customer" ToRole="CustomerService" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK_Payment_Customer" FromRole="Customer" ToRole="Payment" />
+  </EntityType>
+  <EntityType Name="CustomerService">
+    <Key>
+      <PropertyRef Name="CSID" />
+    </Key>
+    <Property Name="CSID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CId" Type="Int32" Nullable="false" />
+    <Property Name="SId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_CustomerService_Customer" FromRole="CustomerService" ToRole="Customer" />
+    <NavigationProperty Name="Service" Relationship="Self.FK_CustomerService_Services" FromRole="CustomerService" ToRole="Services" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PId" />
+    </Key>
+    <Property Name="PId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CId" Type="Int32" Nullable="false" />
+    <Property Name="Discount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="VAT" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="TotalPaidAmount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="PaymentDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ValidDate" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Payment_Customer" FromRole="Payment" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="SId" />
+    </Key>
+    <Property Name="SId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SCost" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="CustomerServices" Relationship="Self.FK_CustomerService_Services" FromRole="Services" ToRole="CustomerService" />
+  </EntityType>
+  <Association Name="FK_CustomerService_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="CustomerService" Type="Self.CustomerService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CId" />
+      </Principal>
+      <Dependent Role="CustomerService">
+        <PropertyRef Name="CId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CId" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="CId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomerService_Services">
+    <End Role="Services" Type="Self.Service" Multiplicity="1" />
+    <End Role="CustomerService" Type="Self.CustomerService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="SId" />
+      </Principal>
+      <Dependent Role="CustomerService">
+        <PropertyRef Name="SId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBDHMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="CustomerServices" EntityType="Self.CustomerService" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Services" EntityType="Self.Service" />
+    <AssociationSet Name="FK_CustomerService_Customer" Association="Self.FK_CustomerService_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="CustomerService" EntitySet="CustomerServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Customer" Association="Self.FK_Payment_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomerService_Services" Association="Self.FK_CustomerService_Services">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="CustomerService" EntitySet="CustomerServices" />
+    </AssociationSet>
+    <FunctionImport Name="spCreatePayment">
+      <Parameter Name="CId" Mode="In" Type="Int32" />
+      <Parameter Name="Discount" Mode="In" Type="Decimal" />
+      <Parameter Name="VAT" Mode="In" Type="Decimal" />
+      <Parameter Name="TotalPaidAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="PaymentDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ValidDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="spGetAllCustomer" ReturnType="Collection(DBDHMModel.spGetAllCustomer_Result)" />
+    <FunctionImport Name="spGetCostByCId" ReturnType="Collection(DBDHMModel.spGetCostByCId_Result)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spUpdatePayment">
+      <Parameter Name="CId" Mode="In" Type="Int32" />
+      <Parameter Name="Discount" Mode="In" Type="Decimal" />
+      <Parameter Name="VAT" Mode="In" Type="Decimal" />
+      <Parameter Name="TotalPaidAmount" Mode="In" Type="Decimal" />
+      <Parameter Name="PaymentDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ValidDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="spGetAllCustomer_Result">
+    <Property Type="Int32" Name="CId" Nullable="false" />
+    <Property Type="String" Name="CName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Phone" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Photo" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="spGetCostByCId_Result">
+    <Property Type="Decimal" Name="payment" Nullable="true" Precision="19" />
+    <Property Type="Int32" Name="CId" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<SampleProject.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+<html>
+<head>
+    <script>
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    </script>
+</head>
+<body>
+    <h2>Index</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table table-bordered table-hover table-striped ">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photo)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Photo)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.CId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.CId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.CId  })
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

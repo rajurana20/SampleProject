@@ -1,0 +1,34 @@
+﻿@model SampleProject.Models.CustomerService
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CustomerService</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.CName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.CName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Service.SName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Service.SName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CSID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

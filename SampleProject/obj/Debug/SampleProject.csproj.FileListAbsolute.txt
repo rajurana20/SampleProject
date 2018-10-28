@@ -1,0 +1,430 @@
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Collections.Immutable.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.IO.Compression.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.ValueTuple.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\VBCSCompiler.exe
+D:\C# Projects\SampleProject\SampleProject\bin\ApplicationInsights.config
+D:\C# Projects\SampleProject\SampleProject\bin\SqlServerTypes\x64\msvcr120.dll
+D:\C# Projects\SampleProject\SampleProject\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\C# Projects\SampleProject\SampleProject\bin\SqlServerTypes\x86\msvcr120.dll
+D:\C# Projects\SampleProject\SampleProject\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\csc.exe
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\csc.exe.config
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\csc.rsp
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\csi.exe
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\csi.exe.config
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\csi.rsp
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.AppContext.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Console.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.Process.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.IO.Pipes.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Security.AccessControl.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Security.Claims.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Threading.Thread.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Xml.XPath.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\vbc.exe
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\vbc.exe.config
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\vbc.rsp
+D:\C# Projects\SampleProject\SampleProject\bin\roslyn\VBCSCompiler.exe.config
+D:\C# Projects\SampleProject\SampleProject\bin\Antlr3.Runtime.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Common.Logging.Core.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Common.Logging.dll
+D:\C# Projects\SampleProject\SampleProject\bin\EntityFramework.dll
+D:\C# Projects\SampleProject\SampleProject\bin\EntityFramework.SqlServer.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.Web.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.WindowsServer.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.ApplicationInsights.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Facebook.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Google.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.OAuth.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Twitter.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.ReportViewer.Common.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.SqlServer.Types.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Web.Infrastructure.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Newtonsoft.Json.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Owin.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Quartz.dll
+D:\C# Projects\SampleProject\SampleProject\bin\ReportViewerForMvc.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Net.Http.Formatting.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Helpers.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Http.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Http.WebHost.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Mvc.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Optimization.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Razor.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.WebPages.Deployment.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.WebPages.dll
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.WebPages.Razor.dll
+D:\C# Projects\SampleProject\SampleProject\bin\WebGrease.dll
+D:\C# Projects\SampleProject\SampleProject\bin\Common.Logging.pdb
+D:\C# Projects\SampleProject\SampleProject\bin\Common.Logging.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Common.Logging.Core.pdb
+D:\C# Projects\SampleProject\SampleProject\bin\Common.Logging.Core.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Quartz.pdb
+D:\C# Projects\SampleProject\SampleProject\bin\Quartz.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Helpers.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Mvc.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Optimization.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Razor.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.WebPages.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.WebPages.Deployment.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.WebPages.Razor.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Antlr3.Runtime.pdb
+D:\C# Projects\SampleProject\SampleProject\bin\Newtonsoft.Json.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Net.Http.Formatting.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Http.xml
+D:\C# Projects\SampleProject\SampleProject\bin\System.Web.Http.WebHost.xml
+D:\C# Projects\SampleProject\SampleProject\bin\EntityFramework.xml
+D:\C# Projects\SampleProject\SampleProject\bin\EntityFramework.SqlServer.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Core.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Facebook.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.OAuth.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Google.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Twitter.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.ApplicationInsights.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.WindowsServer.xml
+D:\C# Projects\SampleProject\SampleProject\bin\Microsoft.AI.Web.xml
+D:\C# Projects\SampleProject\SampleProject\obj\Debug\SampleProject.csproj.CoreCompileInputs.cache
+D:\C# Projects\SampleProject\SampleProject\obj\Debug\SampleProject.dll
+D:\C# Projects\SampleProject\SampleProject\obj\Debug\SampleProject.pdb
+D:\C# Projects\SampleProject\SampleProject\bin\SampleProject.dll.config
+D:\C# Projects\SampleProject\SampleProject\bin\SampleProject.dll
+D:\C# Projects\SampleProject\SampleProject\bin\SampleProject.pdb
+D:\C# Projects\SampleProject\SampleProject\obj\Debug\SampleProject.csprojResolveAssemblyReference.cache
+G:\SampleProject\SampleProject\bin\ApplicationInsights.config
+G:\SampleProject\SampleProject\bin\SqlServerTypes\x64\msvcr120.dll
+G:\SampleProject\SampleProject\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\SampleProject\SampleProject\bin\SqlServerTypes\x86\msvcr120.dll
+G:\SampleProject\SampleProject\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\SampleProject\SampleProject\bin\roslyn\csc.exe
+G:\SampleProject\SampleProject\bin\roslyn\csc.exe.config
+G:\SampleProject\SampleProject\bin\roslyn\csc.rsp
+G:\SampleProject\SampleProject\bin\roslyn\csi.exe
+G:\SampleProject\SampleProject\bin\roslyn\csi.exe.config
+G:\SampleProject\SampleProject\bin\roslyn\csi.rsp
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\SampleProject\SampleProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.AppContext.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Collections.Immutable.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Console.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.Process.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.IO.Compression.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.IO.Pipes.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Reflection.Metadata.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Security.AccessControl.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Security.Claims.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Security.Principal.Windows.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Threading.Thread.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.ValueTuple.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Xml.XmlDocument.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Xml.XPath.dll
+G:\SampleProject\SampleProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\SampleProject\SampleProject\bin\roslyn\vbc.exe
+G:\SampleProject\SampleProject\bin\roslyn\vbc.exe.config
+G:\SampleProject\SampleProject\bin\roslyn\vbc.rsp
+G:\SampleProject\SampleProject\bin\roslyn\VBCSCompiler.exe
+G:\SampleProject\SampleProject\bin\roslyn\VBCSCompiler.exe.config
+G:\SampleProject\SampleProject\bin\SampleProject.dll.config
+G:\SampleProject\SampleProject\bin\SampleProject.dll
+G:\SampleProject\SampleProject\bin\SampleProject.pdb
+G:\SampleProject\SampleProject\bin\Antlr3.Runtime.dll
+G:\SampleProject\SampleProject\bin\Common.Logging.Core.dll
+G:\SampleProject\SampleProject\bin\Common.Logging.dll
+G:\SampleProject\SampleProject\bin\EntityFramework.dll
+G:\SampleProject\SampleProject\bin\EntityFramework.SqlServer.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AI.Agent.Intercept.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AI.DependencyCollector.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AI.Web.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AI.WindowsServer.dll
+G:\SampleProject\SampleProject\bin\Microsoft.ApplicationInsights.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Core.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\SampleProject\SampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Cookies.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Facebook.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Google.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.OAuth.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Twitter.dll
+G:\SampleProject\SampleProject\bin\Microsoft.ReportViewer.Common.dll
+G:\SampleProject\SampleProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\SampleProject\SampleProject\bin\Microsoft.ReportViewer.WebForms.DLL
+G:\SampleProject\SampleProject\bin\Microsoft.SqlServer.Types.dll
+G:\SampleProject\SampleProject\bin\Microsoft.Web.Infrastructure.dll
+G:\SampleProject\SampleProject\bin\Newtonsoft.Json.dll
+G:\SampleProject\SampleProject\bin\Owin.dll
+G:\SampleProject\SampleProject\bin\Quartz.dll
+G:\SampleProject\SampleProject\bin\ReportViewerForMvc.dll
+G:\SampleProject\SampleProject\bin\System.Net.Http.Formatting.dll
+G:\SampleProject\SampleProject\bin\System.Web.Helpers.dll
+G:\SampleProject\SampleProject\bin\System.Web.Http.dll
+G:\SampleProject\SampleProject\bin\System.Web.Http.WebHost.dll
+G:\SampleProject\SampleProject\bin\System.Web.Mvc.dll
+G:\SampleProject\SampleProject\bin\System.Web.Optimization.dll
+G:\SampleProject\SampleProject\bin\System.Web.Razor.dll
+G:\SampleProject\SampleProject\bin\System.Web.WebPages.Deployment.dll
+G:\SampleProject\SampleProject\bin\System.Web.WebPages.dll
+G:\SampleProject\SampleProject\bin\System.Web.WebPages.Razor.dll
+G:\SampleProject\SampleProject\bin\WebGrease.dll
+G:\SampleProject\SampleProject\bin\Common.Logging.pdb
+G:\SampleProject\SampleProject\bin\Common.Logging.xml
+G:\SampleProject\SampleProject\bin\Common.Logging.Core.pdb
+G:\SampleProject\SampleProject\bin\Common.Logging.Core.xml
+G:\SampleProject\SampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\SampleProject\SampleProject\bin\Quartz.pdb
+G:\SampleProject\SampleProject\bin\Quartz.xml
+G:\SampleProject\SampleProject\bin\System.Web.Helpers.xml
+G:\SampleProject\SampleProject\bin\System.Web.Mvc.xml
+G:\SampleProject\SampleProject\bin\System.Web.Optimization.xml
+G:\SampleProject\SampleProject\bin\System.Web.Razor.xml
+G:\SampleProject\SampleProject\bin\System.Web.WebPages.xml
+G:\SampleProject\SampleProject\bin\System.Web.WebPages.Deployment.xml
+G:\SampleProject\SampleProject\bin\System.Web.WebPages.Razor.xml
+G:\SampleProject\SampleProject\bin\Antlr3.Runtime.pdb
+G:\SampleProject\SampleProject\bin\Newtonsoft.Json.xml
+G:\SampleProject\SampleProject\bin\System.Net.Http.Formatting.xml
+G:\SampleProject\SampleProject\bin\System.Web.Http.xml
+G:\SampleProject\SampleProject\bin\System.Web.Http.WebHost.xml
+G:\SampleProject\SampleProject\bin\EntityFramework.xml
+G:\SampleProject\SampleProject\bin\EntityFramework.SqlServer.xml
+G:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Core.xml
+G:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Facebook.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Cookies.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.OAuth.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Google.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Twitter.xml
+G:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\SampleProject\SampleProject\bin\Microsoft.ApplicationInsights.xml
+G:\SampleProject\SampleProject\bin\Microsoft.AI.DependencyCollector.xml
+G:\SampleProject\SampleProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\SampleProject\SampleProject\bin\Microsoft.AI.WindowsServer.xml
+G:\SampleProject\SampleProject\bin\Microsoft.AI.Web.xml
+G:\SampleProject\SampleProject\obj\Debug\SampleProject.csprojAssemblyReference.cache
+G:\SampleProject\SampleProject\obj\Debug\SampleProject.csproj.CoreCompileInputs.cache
+G:\SampleProject\SampleProject\obj\Debug\SampleProject.csproj.CopyComplete
+G:\SampleProject\SampleProject\obj\Debug\SampleProject.dll
+G:\SampleProject\SampleProject\obj\Debug\SampleProject.pdb
+D:\SampleProject\SampleProject\bin\ApplicationInsights.config
+D:\SampleProject\SampleProject\bin\SqlServerTypes\x64\msvcr120.dll
+D:\SampleProject\SampleProject\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\SampleProject\SampleProject\bin\SqlServerTypes\x86\msvcr120.dll
+D:\SampleProject\SampleProject\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\SampleProject\SampleProject\bin\roslyn\csc.exe
+D:\SampleProject\SampleProject\bin\roslyn\csc.exe.config
+D:\SampleProject\SampleProject\bin\roslyn\csc.rsp
+D:\SampleProject\SampleProject\bin\roslyn\csi.exe
+D:\SampleProject\SampleProject\bin\roslyn\csi.exe.config
+D:\SampleProject\SampleProject\bin\roslyn\csi.rsp
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SampleProject\SampleProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.AppContext.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Collections.Immutable.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Console.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.Process.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.IO.Compression.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.IO.Pipes.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Security.AccessControl.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Security.Claims.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Security.Principal.Windows.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Threading.Thread.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.ValueTuple.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Xml.XPath.dll
+D:\SampleProject\SampleProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\SampleProject\SampleProject\bin\roslyn\vbc.exe
+D:\SampleProject\SampleProject\bin\roslyn\vbc.exe.config
+D:\SampleProject\SampleProject\bin\roslyn\vbc.rsp
+D:\SampleProject\SampleProject\bin\roslyn\VBCSCompiler.exe
+D:\SampleProject\SampleProject\bin\roslyn\VBCSCompiler.exe.config
+D:\SampleProject\SampleProject\bin\SampleProject.dll.config
+D:\SampleProject\SampleProject\bin\SampleProject.dll
+D:\SampleProject\SampleProject\bin\SampleProject.pdb
+D:\SampleProject\SampleProject\bin\Antlr3.Runtime.dll
+D:\SampleProject\SampleProject\bin\Common.Logging.Core.dll
+D:\SampleProject\SampleProject\bin\Common.Logging.dll
+D:\SampleProject\SampleProject\bin\EntityFramework.dll
+D:\SampleProject\SampleProject\bin\EntityFramework.SqlServer.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AI.DependencyCollector.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AI.Web.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AI.WindowsServer.dll
+D:\SampleProject\SampleProject\bin\Microsoft.ApplicationInsights.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SampleProject\SampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Google.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SampleProject\SampleProject\bin\Microsoft.ReportViewer.Common.dll
+D:\SampleProject\SampleProject\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\SampleProject\SampleProject\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\SampleProject\SampleProject\bin\Microsoft.SqlServer.Types.dll
+D:\SampleProject\SampleProject\bin\Microsoft.Web.Infrastructure.dll
+D:\SampleProject\SampleProject\bin\Newtonsoft.Json.dll
+D:\SampleProject\SampleProject\bin\Owin.dll
+D:\SampleProject\SampleProject\bin\Quartz.dll
+D:\SampleProject\SampleProject\bin\ReportViewerForMvc.dll
+D:\SampleProject\SampleProject\bin\System.Net.Http.Formatting.dll
+D:\SampleProject\SampleProject\bin\System.Web.Helpers.dll
+D:\SampleProject\SampleProject\bin\System.Web.Http.dll
+D:\SampleProject\SampleProject\bin\System.Web.Http.WebHost.dll
+D:\SampleProject\SampleProject\bin\System.Web.Mvc.dll
+D:\SampleProject\SampleProject\bin\System.Web.Optimization.dll
+D:\SampleProject\SampleProject\bin\System.Web.Razor.dll
+D:\SampleProject\SampleProject\bin\System.Web.WebPages.Deployment.dll
+D:\SampleProject\SampleProject\bin\System.Web.WebPages.dll
+D:\SampleProject\SampleProject\bin\System.Web.WebPages.Razor.dll
+D:\SampleProject\SampleProject\bin\WebGrease.dll
+D:\SampleProject\SampleProject\bin\Common.Logging.pdb
+D:\SampleProject\SampleProject\bin\Common.Logging.xml
+D:\SampleProject\SampleProject\bin\Common.Logging.Core.pdb
+D:\SampleProject\SampleProject\bin\Common.Logging.Core.xml
+D:\SampleProject\SampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SampleProject\SampleProject\bin\Quartz.pdb
+D:\SampleProject\SampleProject\bin\Quartz.xml
+D:\SampleProject\SampleProject\bin\System.Web.Helpers.xml
+D:\SampleProject\SampleProject\bin\System.Web.Mvc.xml
+D:\SampleProject\SampleProject\bin\System.Web.Optimization.xml
+D:\SampleProject\SampleProject\bin\System.Web.Razor.xml
+D:\SampleProject\SampleProject\bin\System.Web.WebPages.xml
+D:\SampleProject\SampleProject\bin\System.Web.WebPages.Deployment.xml
+D:\SampleProject\SampleProject\bin\System.Web.WebPages.Razor.xml
+D:\SampleProject\SampleProject\bin\Antlr3.Runtime.pdb
+D:\SampleProject\SampleProject\bin\Newtonsoft.Json.xml
+D:\SampleProject\SampleProject\bin\System.Net.Http.Formatting.xml
+D:\SampleProject\SampleProject\bin\System.Web.Http.xml
+D:\SampleProject\SampleProject\bin\System.Web.Http.WebHost.xml
+D:\SampleProject\SampleProject\bin\EntityFramework.xml
+D:\SampleProject\SampleProject\bin\EntityFramework.SqlServer.xml
+D:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SampleProject\SampleProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Google.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SampleProject\SampleProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SampleProject\SampleProject\bin\Microsoft.ApplicationInsights.xml
+D:\SampleProject\SampleProject\bin\Microsoft.AI.DependencyCollector.xml
+D:\SampleProject\SampleProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SampleProject\SampleProject\bin\Microsoft.AI.WindowsServer.xml
+D:\SampleProject\SampleProject\bin\Microsoft.AI.Web.xml
+D:\SampleProject\SampleProject\obj\Debug\SampleProject.csproj.CoreCompileInputs.cache
+D:\SampleProject\SampleProject\obj\Debug\SampleProject.csproj.CopyComplete
+D:\SampleProject\SampleProject\obj\Debug\SampleProject.dll
+D:\SampleProject\SampleProject\obj\Debug\SampleProject.pdb
